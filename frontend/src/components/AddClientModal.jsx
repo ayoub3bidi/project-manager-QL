@@ -39,13 +39,13 @@ const AddClientModal = () => {
     <div>
       <button
         type='button'
-        className='btn btn-danger'
+        className='btn btn-success'
         data-bs-toggle='modal'
         data-bs-target='#addClientModal'
       >
         <div className='d-flex align-items-center'>
           <FaUser className='icon' />
-          <div className='pl-2'>Add Client</div>
+          <div className='ml-2'>Add Client</div>
         </div>
       </button>
 
